@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "jarodbritz",
+    "public": "dist/PersonalProfile",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

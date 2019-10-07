@@ -1,0 +1,101 @@
+/* TOOLBAR */
+.toolbar{
+    text-align: center;
+    font-size: 40px;
+    padding: 4%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+a{
+    margin: 2%;
+    color: grey;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* HOME */
+.container{
+    align-items: center;
+    justify-items: center;
+}
+.container h1{
+    font-size: 60px;
+    margin: 0;
+}
+.container h2{
+    font-size: 30px;
+    color: grey;
+    margin: 0;
+}
+
+/* ABOUT */
+.about{
+    margin: 20% 15%;
+    font-size: 26px;
+    padding-top: 20%;
+}
+
+/* PROJECTS */
+.projects{
+    margin: 20% 15%;
+    padding-top: 20%;
+}
+.projects img{
+    width: 250px;
+    margin: 2%;
+}
+.projects img:hover{
+    opacity: 0.5;
+}
+.projects p{
+    color: grey;
+}
+
+/* CONTACT */
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 3% 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    justify-items: center;
+    padding-top: 18%;
+}
+.contact input{
+    width: 300px;
+    height: 30px;
+    border: solid 2px grey;
+    padding: 2%;
+    color: grey;
+}
+.contact button{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.contact button:hover{
+    color: grey;
+}
+
+
+/* FOOTER */
+.footer{
+    background-color: black;
+}
+.footer i{
+    color: white;
+    margin: 1%;
+    cursor: pointer;
+}
+.footer i:hover{
+    color: grey;
+}

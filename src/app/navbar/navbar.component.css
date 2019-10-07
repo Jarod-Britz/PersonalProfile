@@ -1,0 +1,16 @@
+.toolbar{
+    text-align: center;
+    font-size: 40px;
+    padding: 4%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+span{
+    margin: 2%;
+    color: grey;
+}
+span:hover{
+    color: black;
+    cursor: pointer;
+}
