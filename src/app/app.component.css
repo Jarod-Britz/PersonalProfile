@@ -7,12 +7,12 @@
     top: 0;
     background-color: white;
 }
-a{
+.toolbar a{
     margin: 2%;
     color: grey;
     text-decoration: none;
 }
-a:hover{
+.toolbar a:hover{
     color: black;
     cursor: pointer;
 }
@@ -34,9 +34,9 @@ a:hover{
 
 /* ABOUT */
 .about{
-    margin: 20% 15%;
+    margin: 15% 15%;
     font-size: 26px;
-    padding-top: 20%;
+    padding-top: 12%;
 }
 
 /* PROJECTS */
@@ -74,12 +74,15 @@ a:hover{
     padding: 2%;
     color: grey;
 }
+.contact h3{
+    color: grey;;
+}
 .contact button{
     width: 80px;
     height: 40px;
     background-color: white;
     border: none;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
 }
 .contact button:hover{
@@ -98,4 +101,39 @@ a:hover{
 }
 .footer i:hover{
     color: grey;
+}
+
+
+
+@media screen and (max-width: 900px){
+  .toolbar{
+    font-size: 20px;
+  }
+  .container img{
+    width: 250px;
+  }
+  .container h1{
+    font-size: 40px;
+  }
+  .container h2{
+    font-size: 20px;
+  }
+  .about{
+    margin: 0;
+  }
+  .about h2{
+    font-size: 20px;
+  }
+  .about p{
+    font-size: 20px;
+  }
+  .contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;;
+  }
+  .contact img{
+    width: 300px;
+  }
 }
